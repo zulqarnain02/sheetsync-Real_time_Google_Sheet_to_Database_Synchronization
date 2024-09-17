@@ -83,8 +83,7 @@ This screen provides an option to update the database based on the Google Sheet 
 
 7. Google Sheet Example
 This is an example of the Google Sheet that is synced with the MySQL database.
-
-You can add more screenshots to demonstrate specific features like CRUD operations, dynamic table creation, etc.
+![Screenshot 2024-09-18 024624](https://github.com/user-attachments/assets/c606ee6d-48a7-4b65-b900-cfaea3491977)
 
 ## Files Overview
   - google_sheet_sync_complete.html: Template displayed after successful synchronization with options to open the Google Sheet and update the database.
