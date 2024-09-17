@@ -79,7 +79,7 @@ This screen confirms the synchronization is successful with options to open the 
 
 5. Update Database Button
 This screen provides an option to update the database based on the Google Sheet changes.
-![Screenshot 2024-09-18 024542](https://github.com/user-attachments/assets/84049f9f-56ed-42f6-95fd-a1c8e659db6c)
+![Screenshot 2024-09-18 024608](https://github.com/user-attachments/assets/1406c876-1417-472c-a12f-90c044d0053a)
 
 7. Google Sheet Example
 This is an example of the Google Sheet that is synced with the MySQL database.
