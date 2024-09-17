@@ -71,14 +71,15 @@ Here are some screenshots to help visualize the workflow and UI:
 
 1. Sync Google Sheet Form
 This screen shows where users input the Google Sheet ID for synchronization.
+![Screenshot 2024-09-18 023019](https://github.com/user-attachments/assets/4ec9a865-2171-4ae9-9229-2c61f401eb37)
 
-2. Synchronization Success
+3. Synchronization Success
 This screen confirms the synchronization is successful with options to open the Google Sheet and update the database.
 
-3. Update Database Button
+4. Update Database Button
 This screen provides an option to update the database based on the Google Sheet changes.
 
-4. Google Sheet Example
+5. Google Sheet Example
 This is an example of the Google Sheet that is synced with the MySQL database.
 
 You can add more screenshots to demonstrate specific features like CRUD operations, dynamic table creation, etc.
