@@ -1,0 +1,21 @@
+//////store the procedure to call webhook when chages happend in MySQL BD
+DELIMITER $$
+
+CREATE PROCEDURE notify_webhook(
+    IN action_type VARCHAR(10), 
+    IN row_key TEXT,  -- Using TEXT instead of INT
+    IN table_name VARCHAR(255)
+)
+BEGIN
+    -- Instead of making an HTTP call, log the action into a `webhook_queue` table.
+    INSERT INTO webhook_queue (action_type, row_key, table_name, created_at)
+    VALUES (action_type, row_key, table_name, NOW());
+END$$
+
+DELIMITER ;
+
+
+
+
+SELECT TRIGGER_NAME, EVENT_MANIPULATION, EVENT_OBJECT_TABLE 
+FROM information_schema.TRIGGERS;
