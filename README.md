@@ -25,26 +25,26 @@ This project is designed to enable real-time synchronization between Google Shee
   
 ### Installation
 1. Clone the Repository
-  - git clone https://github.com/your-repo-url.git
-- cd your-repo-folder
+   - git clone https://github.com/your-repo-url.git
+   - cd your-repo-folder
 2. Create a Virtual Environment
-  - python -m venv env
-  - source env/bin/activate  # On Windows use env\Scripts\activate
+   - python -m venv env
+   - source env/bin/activate  # On Windows use env\Scripts\activate
 3. Install Dependencies
-  - pip install -r requirements.txt
+   - pip install -r requirements.txt
 4. Configure Google Sheets API
 Follow these steps to set up Google Sheets API and download the credentials:
 
-  - Go to the Google Cloud Console.
-  - Create a new project (or select an existing one).
-  - In the left-hand menu, go to APIs & Services > Library.
-  - Search for "Google Sheets API" and click Enable.
-  - After enabling, go to APIs & Services > Credentials.
-  - Click Create Credentials and choose Service Account.
-  - Fill in the required details and click Create.
-  - Once the service account is created, click on the account and go to the Keys section.
-  - Click Add Key > Create new key and choose JSON format.
-  - A JSON file will be downloaded, which contains your service account credentials. Save this file as credentials.json and place it in the google_credentials directory of your project.
+   - Go to the Google Cloud Console.
+   - Create a new project (or select an existing one).
+   - In the left-hand menu, go to APIs & Services > Library.
+   - Search for "Google Sheets API" and click Enable.
+   - After enabling, go to APIs & Services > Credentials.
+   - Click Create Credentials and choose Service Account.
+   - Fill in the required details and click Create.
+   - Once the service account is created, click on the account and go to the Keys section.
+   - Click Add Key > Create new key and choose JSON format.
+   - A JSON file will be downloaded, which contains your service account credentials. Save this file as credentials.json and place it in the google_credentials directory of your project.
 
 Ensure that the Google Sheets API is enabled in your Google Cloud project, and also share your Google Sheet with the Service Account Email (you can find this email on the service account details page).
 
@@ -52,18 +52,18 @@ Ensure that the Google Sheets API is enabled in your Google Cloud project, and a
 Edit settings.py to configure your MySQL database connection details and add the path to your Google Sheets credentials JSON file.
 
 6. Apply Migrations
-  - python manage.py migrate
+   - python manage.py migrate
 
 7. Run the Development Server
-  - python manage.py runserver
+   - python manage.py runserver
   
 ## Usage
 1. Sync Google Sheet
-  - Navigate to http://localhost:8000/sync-google-sheet/.
-  - Enter the Google Sheet ID and submit the form to synchronize the Google Sheet with the database.
+   - Navigate to http://localhost:8000/sync-google-sheet/.
+   - Enter the Google Sheet ID and submit the form to synchronize the Google Sheet with the database.
 
 2. Update Google Sheet
-  -After synchronization, you can update the Google Sheet by clicking the "Update Database" button on the confirmation page.
+   -After synchronization, you can update the Google Sheet by clicking the "Update Database" button on the confirmation page.
 
 
 ## Screenshots
