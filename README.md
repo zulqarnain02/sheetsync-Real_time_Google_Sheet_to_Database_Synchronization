@@ -68,7 +68,7 @@ Edit settings.py to configure your MySQL database connection details and add the
 
 ## Screenshots
 Here are some screenshots to help visualize the workflow and UI:
-![photo](https://github.com/user-attachments/assets/d3afb9eb-639e-4699-9880-3661ceb577c9)
+
 1. Sync Google Sheet Form
 This screen shows where users input the Google Sheet ID for synchronization.
 
