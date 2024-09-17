@@ -23,7 +23,7 @@ This project is designed to enable real-time synchronization between Google Shee
 - MySQL
 - Google Cloud credentials for Sheets API
   
-#Installation
+# Installation
 1. Clone the Repository
 - git clone https://github.com/your-repo-url.git
 - cd your-repo-folder
@@ -61,7 +61,7 @@ Edit settings.py to configure your MySQL database connection details and add the
 1. Sync Google Sheet
 - Navigate to http://localhost:8000/sync-google-sheet/.
 - Enter the Google Sheet ID and submit the form to synchronize the Google Sheet with the database.
-- 
+
 2. Update Google Sheet
 -After synchronization, you can update the Google Sheet by clicking the "Update Database" button on the confirmation page.
 
